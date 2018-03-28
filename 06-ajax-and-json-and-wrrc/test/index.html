@@ -1,0 +1,31 @@
+<!doctype <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>AJAX is Fun!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+  <script id="book-template" type="text/x-handlebars-template">
+    <li>{{name}} : {{author}}</li>
+  </script>
+</head>
+
+<body>
+  <!-- form>input*2[placeholder] -->
+  <form action="">
+    <input id="book-name" type="text" placeholder="Name" required>
+    <input id="book-author" type="text" placeholder="Author" required>
+    <!-- required makes it not work until field is filled -->
+    <button>Make Book</button>
+  </form>
+
+  <ul>
+    <!-- books go here -->
+  </ul>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
