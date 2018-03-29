@@ -8,6 +8,7 @@
 
 //this is the promise
 //response.then(books => console.log(books));
+
 const url = 'https://server-wuvttyijde.now.sh/books';
 
 const template = $('#book-template').text();
